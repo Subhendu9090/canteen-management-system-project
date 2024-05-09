@@ -1,0 +1,22 @@
+.contact-us-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(167, 192, 146, 0.5);
+  backdrop-filter: blur(10px);
+  /* background-image: url(./contactusbg.avif); */
+  background-position: bottom;
+}
+
+
+.contact-us-content {
+  position: absolute;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(155, 169, 32);
+  font-size: 40px;
+ 
+ 
+}

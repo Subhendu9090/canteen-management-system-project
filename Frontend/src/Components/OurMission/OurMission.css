@@ -1,0 +1,40 @@
+/* OurMission.css */
+
+.our-mission-container {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .section-heading {
+    margin-bottom: 30px;
+  }
+  
+  .mission-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .mission-item {
+    width: 100%; /* Set the width to 100% for full width on smaller screens */
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    padding: 0 20px; /* Add padding to maintain spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .mission-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .mission-image {
+    width: 100%;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  

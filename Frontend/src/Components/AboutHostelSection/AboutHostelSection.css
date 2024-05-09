@@ -1,0 +1,71 @@
+/* AboutHostelSection.css */
+
+.about-hostel-section {
+    margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .about {
+    color: yellow;
+  }
+  
+  .hostel {
+    color: black;
+    background-color: yellow;
+  }
+  
+  .hostel-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hostel-image {
+    width: 200px; /* Adjust width as needed */
+    margin: 20px;
+  }
+  
+  .hostel-image img {
+    width: 200px;
+    height: 200px;
+    
+    transition: transform 0.3s ease;
+  }
+  
+  .hostel-image img:hover {
+    transform: scale(1.1);
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .submit-button,
+  .explore-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .explore-button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+  
+  .image-name {
+    margin-top: 10px;
+  }
+  

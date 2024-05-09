@@ -1,0 +1,57 @@
+/* ContactForm.css */
+
+.contact-form-container {
+    text-align: center;
+    padding: 40px 0;
+    background-color:whitesmoke;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+  }
+  
+  .section-heading {
+    margin-bottom: 10px;
+  }
+  
+  .section-subheading {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .submit-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #555;
+  }
+  

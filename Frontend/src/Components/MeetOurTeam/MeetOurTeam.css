@@ -1,0 +1,70 @@
+/* MeetOurTeam.css */
+
+.meet-our-team-container {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .section-heading {
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow team members to wrap to the next line on smaller screens */
+  }
+  
+  .team-member {
+    margin: 0 20px;
+    margin-bottom: 30px; /* Add spacing between team members */
+  }
+  
+  .team-member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member-photo:hover {
+    transform: scale(1.1);
+  }
+  
+  .member-info {
+    margin-top: 10px;
+  }
+  
+  .member-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .member-designation {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .team-member {
+      margin: 0 10px;
+      margin-bottom: 20px;
+    }
+  
+    .team-member-photo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .member-name {
+      font-size: 16px;
+    }
+  
+    .member-designation {
+      font-size: 12px;
+    }
+  }
+  
